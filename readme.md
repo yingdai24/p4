@@ -1,25 +1,26 @@
-## Laravel PHP Framework
+# Project 4 for CSCI E-15 Dynamic Web Applications
 
-[![Build Status](https://travis-ci.org/laravel/framework.svg)](https://travis-ci.org/laravel/framework)
-[![Total Downloads](https://poser.pugx.org/laravel/framework/downloads.svg)](https://packagist.org/packages/laravel/framework)
-[![Latest Stable Version](https://poser.pugx.org/laravel/framework/v/stable.svg)](https://packagist.org/packages/laravel/framework)
-[![Latest Unstable Version](https://poser.pugx.org/laravel/framework/v/unstable.svg)](https://packagist.org/packages/laravel/framework)
-[![License](https://poser.pugx.org/laravel/framework/license.svg)](https://packagist.org/packages/laravel/framework)
+----
+## Live URL
+[http://p4.ydai.me](http://p4.ydai.me)
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable, creative experience to be truly fulfilling. Laravel attempts to take the pain out of development by easing common tasks used in the majority of web projects, such as authentication, routing, sessions, and caching.
+----
+## Description
+This web application (Search School) is planed to be incorporated into an education consulting website [http://www.inyintl.org]. Search School has a database (findschools) with three tables (schools, counselors and users). Each school has only one counselor, but a counselor can provide consulting servise for many schools. You can search the schools by school name, built year or counselor name. You can also perform CRUD in the schools table. You can noly read from the counselors database, but modification is NOT allowed. You have to sign in before using this web application.
 
-Laravel aims to make the development process a pleasing one for the developer without sacrificing application functionality. Happy developers make the best code. To this end, we've attempted to combine the very best of what we have seen in other web frameworks, including frameworks implemented in other languages, such as Ruby on Rails, ASP.NET MVC, and Sinatra.
+----
+## Demo
+Please watch the Jing screencast video here http://screencast.com/???
 
-Laravel is accessible, yet powerful, providing powerful tools needed for large, robust applications. A superb inversion of control container, expressive migration system, and tightly integrated unit testing support give you the tools you need to build any application with which you are tasked.
+----
+## Details for teaching team
+Login required
+User Email: abc@gmail.com
+Password: abc1234
 
-## Official Documentation
-
-Documentation for the entire framework can be found on the [Laravel website](http://laravel.com/docs).
-
-### Contributing To Laravel
-
-**All issues and pull requests should be filed on the [laravel/framework](http://github.com/laravel/framework) repository.**
-
-### License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT)
+----
+## Outside code
+1. For SchoolController.php and UserController.php, I modified the code from [https://github.com/susanBuck/foobooks/tree/master/app/controllers]
+2. Two JavaScript libraries (jquery-ui.min.js and jquery.min.js) are downloaded from [http://jqueryui.com]  and [https://jquery.org/]
+3. Three css files (jquery-ui.css, main.css and print.css) are downloaded and modified from [http://www.blueprintcss.org/], [http://jqueryui.com], and [http://www.cssplay.co.uk/menus/final_drop3.html]
+4. School logo and other info (e.g. built year, website link) are downloaded from [http://www.wikipedia.org/].
