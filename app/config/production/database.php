@@ -9,7 +9,7 @@ return array(
 			'host'      => 'localhost',
 			'database'  => 'findschools',
 			'username'  => 'root',
-			'password'  => 'root',
+			'password'  => '9TTkAsuhPn',
 		),
 
 	),
