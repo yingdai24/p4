@@ -6,15 +6,15 @@
 
 ----
 ## Description
-This web application (Search School) is planed to be incorporated into an education consulting website [http://www.inyintl.org]. Search School has a database (findschools) with three tables (schools, counselors and users). Each school has only one counselor, but a counselor can provide consulting servise for many schools. You can search the schools by school name, built year or counselor name. You can also perform CRUD in the schools table. You can noly read from the counselors database, but modification is NOT allowed. You have to sign in before using this web application.
+This web application ("Search School", at the right corner of the homepage's menu bar) is planed to be incorporated into an education consulting website. Search School has a database (findschools) with three tables (schools, counselors and users). Each school has only one counselor, but a counselor can provide consulting servise for many schools. (1)You can search the schools by school name, built year or counselor name. (2)You can also perform CRUD in the schools table. (3)You can only read from the counselors database, but modification is NOT allowed. (4)You have to sign in before using this web application.
 
 ----
 ## Demo
-Please watch the Jing screencast video here http://screencast.com/???
+Please watch the Jing screencast video here http://screencast.com/t/nd9JlfEYuYvl
 
 ----
 ## Details for teaching team
-Login required
+Login required for http://p4.ydai.me/schoolsearch
 User Email: abc@gmail.com
 Password: abc1234
 
